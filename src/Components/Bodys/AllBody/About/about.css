@@ -1,0 +1,354 @@
+
+.about{
+    overflow: hidden;
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.abouts{
+    width: 60%;
+    height: auto;
+}
+.about .abouts h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.about .Abouts{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 1.4;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+.about .Abouts .text{
+    margin: 20px;
+}
+.about .abouts span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.about img{
+    border: 2px solid gray;
+}
+
+.about .btn{
+    display: flex;
+
+}
+.about .text{
+    width: 500px;
+}
+.about .Text button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.about .Text button{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #082032;
+    color: gainsboro;
+    font-weight: 600;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  border: none;
+  border: 1px solid white;
+  margin: 10px;
+ 
+
+}
+.about .hide h1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+    color: #082032;
+}
+.about .list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    background-color:hsl(207, 100%, 94%);
+    border: 1px solid gray;
+    border-top: 4px solid #082032;
+    border-bottom: 4px solid #082032;
+
+}
+.about .list1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 2vh;
+    background-color:hsl(207, 100%, 94%);
+    border: 1px solid gray;
+    border-top: 4px solid #082032;
+    border-bottom: 4px solid #082032;
+    overflow: hidden;
+    
+}
+.about .hide span{
+    height: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+.about .hide .nm{
+    position: relative;
+    top: -20px;
+    font-weight: 600;
+}
+.about .img img{
+   width:420px;
+   height:430px
+}
+
+/* /////////////////mobile////////////// */
+@media only screen and (max-width: 1190px){
+    .about .Abouts .text{
+       font-size: 18px; 
+    }
+    .about .Abouts{
+        flex-wrap: wrap;
+    }
+    .about .img img{
+        margin-left: 40px;
+    }
+    .about .Text button{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 1179px){
+    .about img{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 921px){
+    .about .Abouts{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 827px){
+    .about .Abouts{
+        position: relative;
+        right: 20px;
+    }
+}
+@media only screen and (max-width: 771px){
+    .about .Abouts{
+        position: relative;
+        right: 40px;
+    }
+}
+@media only screen and (max-width: 719px){
+    .about .Abouts{
+        position: relative;
+        right: 60px;
+    }
+}
+@media only screen and (max-width: 663px){
+    .about .Abouts{
+        position: relative;
+        right: 80px;
+    }
+    .about .text{
+        width: 450px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 797px){
+    .about .list{
+        width: 500px;
+    }
+    .about .list1{
+        width: 500px;
+        height: 2vh;
+    }
+}
+@media only screen and (max-width: 761px){
+    .about .list{
+        width: 500px;
+       position: relative;
+       right: 15px;
+    }
+    .about .list1{
+        position: relative;
+       right: 15px;
+        width: 500px;
+        height: 2vh;
+    }
+}
+@media only screen and (max-width: 691px){
+    .about .list{
+        width: 500px;
+       position: relative;
+       right: 35px;
+    }
+    .about .list1{
+        position: relative;
+        right: 35px;
+        width: 500px;
+        height: 2vh;
+    }
+}
+@media only screen and (max-width: 663px){
+    .about .list{
+        width: 460px;
+       position: relative;
+       right: 55px;
+    }
+    .about .list1{
+        position: relative;
+        right: 55px;
+        width: 460px;
+        height: 2vh;
+    }
+}
+@media only screen and (max-width: 582px){
+    .about .list{
+        width: 460px;
+       position: relative;
+       right: 55px;
+    }
+    .about .list1{
+        position: relative;
+        right: 55px;
+        width: 460px;
+        height: 2vh;
+    }
+}
+@media only screen and (max-width: 580px){
+    .about .img img{
+        width: 350px;
+        height: 370px;
+        position: relative;
+        left: 30px;
+    }
+    .about .list{
+       width: 460px;
+       position: relative;
+       right: 55px;
+    }
+    .about .list1{
+        position: relative;
+        right: 55px;
+        width: 460px;
+        height: 2vh;
+    }
+    .about .text{
+        font-size: 15px;
+        width: 400px;
+        position: relative;
+        left: 46px;
+    }
+    .about .list{
+        width: 370px;
+       position: relative;
+       right: 20px;
+    }
+    .about .list1{
+        width: 370px;
+        position: relative;
+        right: 20px;
+        height: 2vh;
+    }
+    .about .Text button{
+       position: relative;
+       left: 47px;
+        width: 120px;
+        font-size: 17px;
+    }
+   
+}
+@media only screen and (max-width: 541px){
+    .about .Abouts{
+        position: relative;
+        right: 100px;
+    }
+}
+@media only screen and (max-width: 531px){
+    .about .Abouts{
+        position: relative;
+        right: 100px;
+    }
+    .about .list{
+        position: relative;
+        right: 40px; 
+    }
+    .about .list1{
+        position: relative;
+        right: 40px; 
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .about .img img{
+        width: 320px;
+        height: 350px;
+        position: relative;
+        left: 30px;
+    }
+    .about .text{
+        width: 350px;
+        position: relative;
+        left: 46px;
+    }
+    .about .list span{
+        font-size: 18px;
+    }
+    .about .list{
+    font-size: 17px;
+        width: 330px;
+       position: relative;
+       right: 20px;
+    }
+    .about .list1{
+        width: 330px;
+        position: relative;
+        right: 20px;
+        height: 2vh;
+    }
+    .about .Text button{
+       position: relative;
+       left: 47px;
+        width: 120px;
+        font-size: 17px;
+    }
+}
+/* 
+@media only screen and (max-width: 1049px){
+    .about img{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .about img{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 897px){
+    .about img{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 885px){
+    .about img{
+        margin-left: 30px;
+    }
+} */

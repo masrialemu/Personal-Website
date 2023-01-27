@@ -1,0 +1,164 @@
+.port{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.port .ports{
+    width: 60%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.port .ports h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.port .ports span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.port .Ports img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.port .Ports .dit{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.port .Ports .dit .time{
+    font-family: 'Times New Roman';
+}
+.port .Ports .btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.port .Ports{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.port .Ports button{
+    margin: 5px;
+   width: 100px;
+   height: 40px;
+   font-size: 20px;
+   background-color: #082032;
+   color: white;
+   cursor: pointer;
+   border: none;
+   transition: 0.8s;
+}
+.port .Ports button:hover{
+    background-color: transparent;
+    border: 2px solid #082032;
+    color: #082032;
+}
+@media only screen and (max-width: 1384px){
+    .port .Ports img{
+        width: 380px;
+        height: 380px;
+       
+    }
+}
+@media only screen and (max-width: 1316px){
+    .port .Ports img{
+        width: 350px;
+        height: 350px;
+       
+    }
+}
+@media only screen and (max-width: 1216px){
+    .port .Ports img{
+        width: 320px;
+        height: 320px;
+       
+    }
+}
+@media only screen and (max-width: 1113px){
+    .port .Ports img{
+        width: 300px;
+        height: 300px;
+       
+    }
+    .port .Ports button{
+        width: 80px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 1052px){
+    .port .Ports img{
+        width: 280px;
+        height: 280px;
+       
+    }
+}
+@media only screen and (max-width: 981px){
+    .port .Ports img{
+        width: 250px;
+        height: 250px;
+       
+    }
+}
+@media only screen and (max-width: 885px){
+    .port .Ports {
+        flex-wrap: wrap;
+    }
+    .port .Ports img{
+        width: 400px;
+        height: 400px;
+       
+    }
+    .port .Ports button{
+        width: 100px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 671px){
+    .port .Ports{
+        position: relative;
+        right: 30px;
+    }    
+}
+@media only screen and (max-width: 671px){
+    .port .Ports{
+        position: relative;
+        right: 30px;
+    } 
+    .port .Ports img{
+        width: 350px;
+        height: 350px;
+       
+    }
+    .port .Ports button{
+        width: 100px;
+        font-size: 20px;
+    }   
+}
+@media only screen and (max-width: 437px){
+    .port .Ports{
+        position: relative;
+        right: 30px;
+    } 
+    .port .Ports img{
+        width: 300px;
+        height: 300px;
+       
+    }
+    .port .Ports button{
+        width: 70px;
+        font-size: 18px;
+    }   
+}

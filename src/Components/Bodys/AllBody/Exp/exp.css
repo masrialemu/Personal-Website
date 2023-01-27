@@ -1,0 +1,209 @@
+.exp{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.exp .exps{
+    width: 60%;
+    height: auto;
+    background-color: aliceblue;
+}
+.exp .exps h3{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(90, 9, 9);
+    justify-content: center;
+}
+.exp .exps span{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.exp .Exps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+}
+/* .exp .f1{
+   
+} */
+.exp .html{
+    width: 400px;
+    height: 10px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.exp .f1{
+    margin: 10px;
+    color: #082032;
+}
+.exp .f1 h2{
+    height: 35px;
+}
+.exp .html .inh{
+    border-radius: 20px;
+    width: 390px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .ins{
+    border-radius: 20px;
+    width: 350px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .inj{
+    border-radius: 20px;
+    width: 340px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .inr{
+    border-radius: 20px;
+    width: 370px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .inb{
+    border-radius: 20px;
+    width: 320px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .inrn{
+    border-radius: 20px;
+    width: 350px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+.exp .html .inn{
+    border-radius: 20px;
+    width: 350px;
+    height: 7px;
+    background-color:  #082032;
+}
+.exp .html .incc{
+    border-radius: 20px;
+    width: 300px;
+    height: 7px;
+    background-color:  #082032;
+}
+.exp .html .inm{
+    border-radius: 20px;
+    width: 390px;
+    height: 7px;
+    background-color:  #082032;
+}
+.exp .html .inf{
+    border-radius: 20px;
+    width: 330px;
+    height: 7px;
+    background-color:  #082032;
+}
+.exp .html .inp{
+    border-radius: 20px;
+    width: 320px;
+    height: 7px;
+    background-color:  #082032;
+}
+.exp .html .injv{
+    border-radius: 20px;
+    width: 300px;
+    height: 7px;
+    background-color:  #082032;
+}
+
+
+/* /////////////////////mobile/////////////////////// */
+
+@media only screen and (max-width: 1095px){
+    .exp .html{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    .exp .html{
+        width: 350px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -30px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .exp .html{
+        width: 350px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -70px;
+    }
+}
+@media only screen and (max-width: 897px){
+    .exp .html{
+        width: 320px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -90px;
+    }
+}
+@media only screen and (max-width: 794px){
+    .exp .html{
+        width: 300px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -100px;
+    }
+}
+@media only screen and (max-width: 690px){
+    .exp .Exps{
+        flex-wrap: wrap;
+    }
+    .exp .html{
+        width: 400px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 671px){
+  
+    .exp .html{
+        width: 360px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -40px;
+    }
+}
+@media only screen and (max-width: 464px){
+    
+    .exp .html{
+        width: 300px;
+    }
+    .exp .f1{
+        position: relative;
+        left: -30px;
+    }
+}

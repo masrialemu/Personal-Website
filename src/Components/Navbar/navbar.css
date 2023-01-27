@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    align-items: center;
+    
+}
+.navbar .picc{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    overflow: hidden;
+}
+.picc img{
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar .navbars{
+    transition: 1s;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbars1{
+    transition: 1s;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    background-color: #082032;
+    border-bottom: 2px solid gray;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .name{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 150px;
+    height: 40px;
+    position: relative;
+   
+}
+.navbar .name span{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    color: white;
+    /* -webkit-text-stroke: -px red; */
+ 
+   
+}
+
+.navbar .list,.LList ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+.navbar .list,.LList  ul li{
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+.navbar .list ul li:hover{
+    color: red;
+    font-weight: 650;
+}
+.navbar .LList ul li:hover{
+    color: red;
+    font-weight: 650;
+}
+
+
+
+
+.navbar .login{
+    margin-right: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.navbar .login h1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #082032;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.navbar .login h1:hover{
+    background-color: red;
+}
+
+/* ///////////////////title///////////// */
+.navbar .title{
+    width: 400px;
+    height: 250px;
+    border: 3px solid gray;
+    backdrop-filter: blur(5px);
+    margin-top: 13%;
+    color: white;
+}
+.navbar .title h3{
+    color: red;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    margin: 10px;
+
+}
+.navbar .title button:hover{
+    background-color: transparent;
+    color:wheat ;
+}
+.navbar .title button{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #082032;
+    color: gainsboro;
+    font-weight: 600;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  border: none;
+  border: 1px solid white;
+  margin: 30px 120px;
+
+}
+.navbar .title .sp h3{
+   font-size: 20px;
+   font-weight: 600;
+}
+.navbar .title h1 span{
+    color: red;
+    border-bottom: 2px solid gray;  
+}
+.navbar .title p{
+    padding-left: 20px;
+}
+.navbar .title h1{
+   display: flex;
+   font-weight: 600;
+   justify-content: center;
+}
+.navbar .title p{
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.navbar .listsx{
+    visibility: hidden;
+}
+.navbar .test{
+    visibility: hidden;
+}
+/* ///////////Mobile/////////////////// */
+
+
+@media only screen and (max-width: 1254px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 20px;
+       
+    }
+}
+@media only screen and (max-width: 1288px) {
+    .navbar .login{
+       position: relative;
+       left: -190px;
+       
+    }
+}
+@media only screen and (max-width: 1246px) {
+    .navbar .login{
+       position: relative;
+       left: -190px;
+       
+    }
+}
+@media only screen and (max-width: 1226px) {
+    .navbar .login{
+       position: relative;
+       left: -190px;
+       
+    }
+}
+@media only screen and (max-width: 1262px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 20px;
+       
+    }
+}
+@media only screen and (max-width: 1190px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 40px;
+       
+    }
+}
+
+@media only screen and (max-width: 1142px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 50px;
+       
+    }
+}
+
+@media only screen and (max-width: 1194px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 50px;
+       
+    }
+}
+@media only screen and (max-width: 1120px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 70px;
+       
+    }
+}
+@media only screen and (max-width: 1094px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 90px;
+       
+    }
+}
+@media only screen and (max-width: 1084px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 120px;
+       
+    }
+}
+@media only screen and (max-width: 1044px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 150px;
+       
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .navbar .login{
+       position: relative;
+       padding-left: 170px;
+       
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .navbar .list ul li{
+       font-size: 10px;
+
+    }
+   
+}
+.navbar .name{
+    visibility: hidden;
+}
+@media only screen and (max-width: 690px) {
+   .navbar .list {
+     width: 100%;
+     position: relative;
+     top: 20px;
+     /* background-color: #082032;  */
+     z-index: 1000;
+     backdrop-filter: blur(5px);
+   }
+   .navbar .listsx{
+    position: absolute;
+    visibility: visible;
+    z-index: 1000;
+    backdrop-filter: blur(50%);
+    right: 40px;
+    cursor: pointer;
+  }
+   .navbar .logs{
+    visibility: hidden;
+   }
+   .navbar .list ul li:hover{
+    background-color: #082238;
+   }
+   .navbar .listul li{
+    transform: 0.7s;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+   }
+   .navbar .list ul{
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    justify-content: center;
+    background-color: #082032; 
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    
+    
+  }
+  .navbar .name{
+    visibility: visible;
+}
+.navbar .LList{
+    visibility: hidden;
+}
+}
+@media only screen and (max-width: 1472px) {
+    .navbar .login{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 1452px) {
+    .navbar .login{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 1445px) {
+    .navbar .login{
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .navbar .login{
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .navbar .login{
+        padding-left: 60px;
+    }
+}
+@media only screen and (max-width: 1272px) {
+    .navbar .login{
+        padding-left: 90px;
+    }
+}
+@media only screen and (max-width: 1210px) {
+    .navbar .login{
+        padding-left: 110px;
+    }
+}
+@media only screen and (max-width: 1154px) {
+    .navbar .login{
+        padding-left: 140px;
+    }
+}
+@media only screen and (max-width: 1086px) {
+    .navbar .login{
+        padding-left: 180px;
+    }
+}
+@media only screen and (max-width: 1002px) {
+    .navbar .name{
+        visibility: hidden;
+    }
+}
+
+
+
+
+/* ////////////////////list mobile/////////////// */
+@media only screen and (max-width: 686px) {
+    .navbar .list ul{
+        width: 490px;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 668px) {
+    .navbar .list ul{
+        width: 470px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .navbar .list ul{
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 616px) {
+    .navbar .list ul{
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 592px) {
+    .navbar .list ul{
+        font-size: 18px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 558px) {
+    .navbar .list ul{
+        width: 380px;
+    }
+}
+@media only screen and (max-width: 546px) {
+    .navbar .list ul{
+        width: 350px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 514px) {
+    .navbar .list ul{
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .navbar .list ul{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .navbar .list ul{
+        width: 270px;
+    }
+}
+@media only screen and (max-width: 416px) {
+    .navbar .list ul{
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .navbar .list ul{
+        width: 220px;
+        height: 350px;
+    }
+}
